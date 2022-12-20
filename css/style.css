@@ -21,7 +21,7 @@ h1{
     font-size: 100px;
     margin: 0;
 }
-.content-main{
+#content-main{
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: var(--color-main);
