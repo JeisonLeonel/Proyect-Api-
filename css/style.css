@@ -1,0 +1,71 @@
+:root{
+    --font-family:'Roboto', sans-serif;;
+    --color-span: rgb(158, 158, 158);
+    --color-h3: rgb(245, 245, 245);
+    --color-h1: rgb(32, 35, 41);
+    --color-main: rgb(32, 35, 41);
+    --color-card: rgb(60, 62, 68);
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: var(--font-family);
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900; 
+    height:350px;
+    color: var(--color-h1);
+    font-size: 100px;
+    margin: 0;
+}
+.content-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--color-main);
+}
+.card-grid{
+    width: 600px;
+    height: 220px;
+    display: flex;
+    background-color:var(--color-card) ;
+    margin: 20px; 
+    border-radius: 15px;
+}
+
+.card-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.card-text{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.card-text .section{
+    margin: 5px;
+}
+h3{
+    color: var(--color-h3);
+    margin: 0;
+}
+#nombre{
+    font-size: 30px;
+    margin: 0;
+}
+#especie{
+    color:var(--color-h3);
+    margin: 0;
+}
+#especie span{
+    color: var(--color-h3);
+}
+#lugar,#episodio{
+    margin: 0;
+}
+span{
+    color: var(--color-span)
+}
